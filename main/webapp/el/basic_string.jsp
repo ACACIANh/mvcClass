@@ -4,7 +4,7 @@
 	//pageContext.setAttribute(String attributeName, Object attributeValue)
 	// => 스코프 객체에 속성명(문자열)과 속성값(인스턴스)을 저장하는 메소드
 	// => pageContext 내장객체에 속성값을 저장 - Page Scope
-	//Page Scope : 속성값을 저장한 웹프로그램에서 속성값을 반환받아 사용 가능
+	//Page Scope : 속성값을 저장한 웹프로그램에서만 속성값을 반환받아 사용 가능
 	pageContext.setAttribute("name", "홍길동");
 %>    
 <!DOCTYPE html>

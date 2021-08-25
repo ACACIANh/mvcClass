@@ -19,6 +19,12 @@
   	<url-pattern>*.do</url-pattern>
   </servlet-mapping>
 
+  <!-- context-param : 컨텍스트에 존재하는 모든 웹프로그램에게 값을 제공하기 위한 엘리먼트 -->	
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>홍길동</param-value>
+  </context-param>	
+
   <display-name>mvc</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
